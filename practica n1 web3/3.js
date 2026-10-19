@@ -1,0 +1,11 @@
+const fila = [];
+fila.push("Rosa");
+fila.push("Tomas");
+fila.push("Ines");
+fila.push("Hugo");
+fila.push("Vera");
+console.log("Fila inicial:", fila);
+let atendido = fila.shift();
+console.log("Atendido:", atendido, "-> Fila actual:", fila);
+atendido = fila.shift();
+console.log("Atendido:", atendido, "-> Fila actual:", fila);
